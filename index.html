@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pale Blue dot</title>
+    <link rel="icon" href="./assets/images/logo.svg" type="image/svg" sizes="16x16" />
+    <link rel="stylesheet" href="./styles/css/normalize.css" />
+    <link rel="stylesheet" href="./styles/css/styles.css" />
+    <link rel="stylesheet" href="./styles/css/icomoon.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container">
+        <a href="#">
+          <img
+            src="./assets/images/logo.svg"
+            alt="podcast landing page main logo"
+            class="header__container__logo"
+          />
+        </a>
+        <input type="checkbox" class="header__container__toogler" />
+        <div class="header__container__menuIcon">
+          <div class="header__container__menuIcon__line"></div>
+        </div>
+        <nav class="header__container__navbar">
+          <ul class="header__container__navbar__list">
+            <li><a href="#episodes">EPISODIOS</a></li>
+            <li><a href="#us">NOSOTROS</a></li>
+            <li><a href="#interview">ENTREVISTAS</a></li>
+            <li><a href="#topics">TOPICOS</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="hero">
+      <div class="hero__text">
+        <h1 class="hero__text__title">Hello <span>world</span> pale blue dot<span>.</span></h1>
+        <p class="hero__text__paragraph">
+          El portal de podcasts que explora el mundo de la programación y la tecnología. Nuevos
+          episodios, todos los jueves cada 15 días.
+        </p>
+        <button type="button" class="hero__text__button">CONOCÈ MÀS</button>
+      </div>
+    </main>
+    <section class="podcast" id="episodes">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <polygon fill="white" points="0,100 100,0 100,100" />
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <polygon fill="white" points="0,100 100,0 100,100" />
+      </svg>
+      <div class="podcast__embeds">
+        <h2 class="podcast__embeds__title">Episodios</h2>
+        <div class="podcast__embeds__embed">
+          <iframe
+            src="https://open.spotify.com/embed/track/4TOmcZvw0gHa7GiXRbcYAW"
+            allow="encrypted-media"
+          ></iframe>
+        </div>
+        <div class="podcast__embeds__embed">
+          <iframe
+            src="https://open.spotify.com/embed/track/380HmhwTE2NJgawn1NwkXi"
+            allow="encrypted-media"
+          ></iframe>
+        </div>
+        <div class="podcast__embeds__embed">
+          <iframe
+            src="https://open.spotify.com/embed/track/34LI7rwi9H8w2S5KTHnv1M"
+            allow="encrypted-media"
+          ></iframe>
+        </div>
+        <div class="podcast__embeds__embed">
+          <iframe
+            src="https://open.spotify.com/embed/track/1yTJg3lyUPmwbnve82twH5"
+            allow="encrypted-media"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+    <section class="from">
+      <img
+        src="./assets/images/phone.png"
+        alt="phone with historical image"
+        class="from__img"
+        id="us"
+      />
+      <div class="from__article">
+        <h2>De dónde venimos</h2>
+        <p>
+          Our posturings, our imagined self-importance, the delusion that we have some privileged
+          position in the Universe, are challenged by this point of pale light. <br /><br />
+          Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all
+          this vastness, there is no hint that help will come from elsewhere to save us from
+          ourselves.
+        </p>
+      </div>
+    </section>
+    <section class="gallery" id="interview">
+      <div class="gallery__title">
+        <h2>Invitadas/os estelares</h2>
+      </div>
+      <div class="gallery__imgs">
+        <img src="./assets/images/grace-hopper.png" alt="grace hopper image" />
+        <img src="./assets/images/Katie-Bouman.png" alt="Katie Bouman image" />
+        <img src="./assets/images/Margaret_Hamilton.png" alt="margaret hamilton image" />
+        <img
+          src="./assets/images/AnE.R.A.Univac1103computerinthe1950s.png"
+          alt="Univac computer in the 1950s"
+        />
+        <img
+          src="./assets/images/ComputeroperatorswithanEniac—theworld’sfirstprogrammablegeneral-purposecomputer.png"
+          alt="the world´s first programable computer"
+        />
+        <img src="./assets/images/susan-kare.png" alt="susan kare image" />
+      </div>
+    </section>
+    <section class="themes" id="topics">
+      <div class="themes__container">
+        <h2 class="themes__container__title">
+          Algunos de nuestros temas
+        </h2>
+        <div class="themes__container__cards">
+          <div class="themes__container__cards__card">
+            <img src="./assets/images/icon1.svg" alt="remote work" />
+            <h3>Trabajo remoto</h3>
+          </div>
+          <div class="themes__container__cards__card">
+            <img src="./assets/images/icon2.svg" alt="Rethinking programming" />
+            <h3>Repensando la programación</h3>
+          </div>
+          <div class="themes__container__cards__card">
+            <img src="./assets/images/icon3.svg" alt="code basics" />
+            <h3>Bases del código</h3>
+          </div>
+          <div class="themes__container__cards__card">
+            <img src="./assets/images/icon4.svg" alt="Informatic security" />
+            <h3>Seguridad informática</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="banner">
+      <svg
+        class="banner__svg"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 100 100"
+        preserveAspectRatio="none"
+      >
+        <polygon fill="white" points="0,100 100,0 100,100" />
+      </svg>
+      <p class="banner__text">¿Querés las últimas novedades?</p>
+      <button class="banner__button">ESCUCHÁ LOS EPISODIOS</button>
+    </div>
+    <footer class="footer">
+      <p>© 2019— Hello blue pale dot</p>
+      <div class="footer__social">
+        <a href="https://open.spotify.com/" target="_blank">
+          <i class="icon-spotify"></i>
+        </a>
+        <a href="https://www.instagram.com/" target="_blank">
+          <i class="icon-instagram"></i>
+        </a>
+        <a href="https://twitter.com/?lang=es" target="_blank">
+          <i class="icon-twitter"></i>
+        </a>
+        <a href="https://www.facebook.com/" target="_blank">
+          <i class="icon-facebook2"></i>
+        </a>
+        <a href="https://web.telegram.org/" target="_blank">
+          <i class="icon-telegram"></i>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>

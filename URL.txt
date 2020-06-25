@@ -1,0 +1,4 @@
+Hola muy buenas tardes dias o noches :), ncontraran los archivos de estilo separados en dos carpetas
+una para preprocesador utilizado (SASS) y otra para el CSS, en la carpeta assets se encuentran las imagenes
+y dado que icomoon el uso de su cdn lo limita a 24 horas y deja de funcionar descargue los archivos para utilizar sus iconos.
+ y por ultimo aca encuentran mi sitio subido a AWARDSPACE (http://podcastchanel.atwebpages.com/#topics)

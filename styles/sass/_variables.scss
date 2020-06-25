@@ -1,0 +1,29 @@
+//IMPORTS
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600;700&family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap');
+//FONTS
+$font1:'IBM Plex Mono',
+monospace;
+;
+$font2:'IBM Plex Sans',
+sans-serif;
+//COLORS
+$very-dark-blue:#0000A3;
+$dark-blue:#0000EC;
+$soft-blue:#0000FF;
+$cyan:#00F3BB;
+$dark-cyan:#00F0B8;
+$font-color1:#060A24;
+$font-color2:#FFFFFF;
+
+//BUTTONS
+%button--mobile {
+    background-color: $cyan;
+    line-height: 22px;
+    padding: 13px 96px;
+    border: none;
+    font-weight: bold;
+
+    &:hover {
+        background-image: linear-gradient(to right, $cyan, #0000FE);
+    }
+}

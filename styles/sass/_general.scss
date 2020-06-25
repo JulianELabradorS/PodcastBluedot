@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600;700&family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: $font1;
+    color: $font-color1;
+    scroll-behavior: smooth;
+}
+
+h1,
+h2 {
+    font-family: $font2;
+    font-size: 2.25em;
+    line-height: 42px;
+    font-weight: 500;
+}
+
+h3 {
+    font-family: $font2;
+    font-size: 1.5em;
+    line-height: 32px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+
+
+@media only screen and (min-width:768px) {
+    h1 {
+        font-size: 4em;
+        line-height: 84px;
+    }
+
+    h2 {
+        font-size: 3em;
+        line-height: 62px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+}
